@@ -2,7 +2,7 @@
 ## 📖 Overview
 This project is a fully functional **Supervisory Control and Data Acquisition (SCADA)** system designed for a building water treatment process. It bridges the gap between legacy hardware and modern IIoT capabilities.
 
-The system uses an **Allen-Bradley Micro850** PLC for real-time control of pumps, valves, and chemical dosing, while **Ignition SCADA** provides a centralized, web-based interface for monitoring, alarming, and historical data analysis. The integration leverages **advanced Python/Jython scripting** to automate complex sequences and deliver predictive insights.
+The system uses **Ignition SCADA | Allen-Bradley Micro850 | Schneider M221 | Advanced Python Scripting** PLC for real-time control of pumps, valves, and chemical dosing, while **Ignition SCADA** provides a centralized, web-based interface for monitoring, alarming, and historical data analysis. The integration leverages **advanced Python/Jython scripting** to automate complex sequences and deliver predictive insights.
 
 **Key Achievement:** Reduced manual intervention by 70% and improved water quality data visibility through custom reporting.
 
@@ -41,7 +41,9 @@ The system communicates via **Modbus TCP**. To replicate this setup:
 1.  **In CCW:**
     - Define all Controller Variables (Tags).
     - Map the tags to **Modbus Holding Registers** .
-    - Configure the Ethernet port with a static IP (192.168.1.10).
+    - Configure the Ethernet port with a static IP
+    - *Device 1: 192.168.1.10 (Micro850)
+    - *Device 2: 192.168.1.20 (Schneider M221).
 2.  **In Ignition:**
     - Add a new Modbus TCP Device in the **OPC UA Server** module.
     - Point to the PLC's IP address on Port `502`.
