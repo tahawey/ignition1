@@ -1,0 +1,16 @@
+{
+  "scope": "CG",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "mohamed",
+      "timestamp": "2026-07-25T19:37:10Z"
+    },
+    "lastModificationSignature": "7a1893a249cb7925a637fd70e06790db8134c7a9207040780a91bafa815d3237"
+  }
+}
